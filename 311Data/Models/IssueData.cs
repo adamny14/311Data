@@ -53,6 +53,5 @@ namespace _311Data.Models
 
         public string DueDate { get; set; }
 
-        //
     }
 }

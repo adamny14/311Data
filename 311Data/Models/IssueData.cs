@@ -53,5 +53,46 @@ namespace _311Data.Models
 
         public string DueDate { get; set; }
 
+        public string ResolutionDescription { get; set; }
+
+        public string ResolutionActionUpdatedDate { get; set; }
+
+        public string CommunityBoard { get; set; }
+
+        public int BBL { get; set; }
+
+        public string Borough {get; set;}
+
+        [BsonElement("X Coordinate(State Plane)")]
+        public int XStatePlane { get; set; }
+
+        [BsonElement("Y Coordinate(State Plane)")]
+        public int YStatePlane { get; set; }
+
+        public string OpenDataChannelType { get; set; }
+
+        public string ParkFacilityName { get; set; }
+
+        public string ParkBorough { get; set; }
+
+        public string VehicleType { get; set; }
+
+        public string TaxiCompanyBorough { get; set; }
+
+        public string TaxiPickUpLocation { get; set; }
+
+        public string BridgeHighwayName { get; set; }
+
+        public string BridgeHighwayDirection { get; set; }
+
+        public string RoadRamp { get; set; }
+
+        public string BridgeHighwaySegment { get; set; }
+
+        public double Latitude { get; set; }
+
+        public double Longitude { get; set; }
+
+        public string Location { get; set; }
     }
 }
